@@ -1,0 +1,26 @@
+[project]
+name = "analyzer-gpt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=4.0.0",
+    "autogen-agentchat>=0.7.2",
+    "autogen-core>=0.7.2",
+    "autogen-ext[docker]>=0.7.2",
+    "openai>=1.99.7",
+    "pydantic>=2.11.7",
+    "pydantic-settings>=2.10.1",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.48.1",
+    "tiktoken>=0.11.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "agents",
+    "config",
+    "models",
+    "teams",
+]
