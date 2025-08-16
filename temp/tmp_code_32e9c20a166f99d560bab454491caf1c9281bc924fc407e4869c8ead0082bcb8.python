@@ -1,0 +1,1 @@
+import subprocess; subprocess.check_call(['pip', 'install', 'pandas']); import pandas as pd; df = pd.read_csv('titanic.csv'); print(f'Number of rows in titanic.csv: {df.shape[0]}')

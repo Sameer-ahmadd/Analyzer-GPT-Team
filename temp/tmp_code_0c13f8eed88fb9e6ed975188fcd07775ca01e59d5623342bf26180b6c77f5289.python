@@ -1,0 +1,1 @@
+!pip install -qqq pandas; import pandas as pd; df = pd.read_csv('your_file.csv'); num_columns = df.shape[1]; print(f'Number of columns in the CSV: {num_columns}')

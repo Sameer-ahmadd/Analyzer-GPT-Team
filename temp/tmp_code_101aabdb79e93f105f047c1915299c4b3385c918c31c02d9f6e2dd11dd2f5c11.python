@@ -1,0 +1,1 @@
+!pip install -qqq pandas; import pandas as pd; df = pd.read_csv('titanic.csv'); print(f'Number of rows in titanic.csv: {df.shape[0]}')
